@@ -170,7 +170,7 @@ div.content {
 }
 
 div.block-above {
-    background: linear-gradient(90deg, black 15%, transparent), url(../_imagens/concerto.jpg);
+    background: linear-gradient(90deg, black 15%, transparent), url(../images/concerto.jpg);
     height: 35vh;
     margin: 26px;
     margin-top: 0px;
