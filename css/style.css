@@ -107,6 +107,7 @@ div h1.titulo-principal {
 }
 
 div.bottom-block {
+    margin: 0;
     display: flex;
     justify-content: flex-start;
     overflow-x: scroll;
