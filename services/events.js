@@ -30,7 +30,7 @@ function createEvents() {
             window.location.reload()
         })
         .catch(error => {
-            alert(error.response.data)
+            alert(JSON.stringify(error.response.data))
         })
 
 }
