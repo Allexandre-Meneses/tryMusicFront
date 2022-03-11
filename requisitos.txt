@@ -1,0 +1,2 @@
+Acesso para cadastrar eventos, apenas se estiver logado.
+Quem cria o evento é o administrador.
