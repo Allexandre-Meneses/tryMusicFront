@@ -44,7 +44,7 @@ function getBands() {
             <button class="click-band" onclick="direcionamural(${bands[count]['Band']['id']})">
             <label id="ShowBandName" for="">${bands[count]['Band']['name']}</label>
                 </button>
-            <br><img src="../_imagens/concerto.jpg" alt="">
+            <br><img src="../images/concerto.jpg" alt="">
             <label id="idBand" for="">ID = ${bands[count]['Band']['id']}</label>
 
             <div class="dropdown">
