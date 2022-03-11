@@ -1,25 +1,10 @@
 {
-  "dependencies": {
-    "jsonwebtoken": "^8.5.1"
-  },
-  "name": "engsw-tp-grupo-d",
+  "name": "interface",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/les-prp-uespi/engsw-tp-grupo-d.git"
-  },
-  "author": "Eduardo <eduardoalvessousa031@gmail.com>",
   "license": "MIT",
-  "description": "clonar repositório git:",
-  "bugs": {
-    "url": "https://github.com/les-prp-uespi/engsw-tp-grupo-d/issues"
-  },
-  "homepage": "https://github.com/les-prp-uespi/engsw-tp-grupo-d#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "mocha": "^9.2.1"
+  "dependencies": {
+    "axios": "^0.25.0",
+    "selenium-webdriver": "^4.1.1"
   }
 }
