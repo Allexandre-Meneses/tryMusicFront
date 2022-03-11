@@ -107,9 +107,8 @@ div h1.titulo-principal {
 }
 
 div.bottom-block {
-    margin: 7px;
-    display: inline-table;
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-start;
     overflow-x: scroll;
     height: 251px;
     gap: 12px;

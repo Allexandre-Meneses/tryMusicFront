@@ -14,7 +14,7 @@ function createEvents() {
     let desc = document.getElementById("desc").value;
     let band_id = sessionStorage.getItem('band_id')
 
-    
+
     let data = {
         name: name,
         date: date,
@@ -26,15 +26,16 @@ function createEvents() {
     }
 
     axios.post(url + '/events', data)
-    .then(response => {
-        window.location.reload()
-    })
-    .catch(error => {
-        alert(error.response.data)
-    })
+        .then(response => {
+            window.location.reload()
+        })
+        .catch(error => {
+            alert(error.response.data)
+        })
 
 }
-function getEvents(){
+
+function getEvents() {
 
     let band_id = sessionStorage.getItem('band_id')
 
@@ -43,9 +44,9 @@ function getEvents(){
     }
 
     axios.post(url + '/eventsget', data)
-    .then(response => {
+        .then(response => {
 
-        let events = response.data
+            let events = response.data
 
             console.log(events)
 
@@ -53,7 +54,6 @@ function getEvents(){
 
             for (let count in events) {
                 let showEvents = document.createElement('div')
-                showEvents.setAttribute('class', 'bottom-block')
                 showEvents.setAttribute('id', count)
                 showEvents.innerHTML = `
                 <div class="content first-bottom-block">
@@ -75,4 +75,3 @@ function getEvents(){
 }
 
 getEvents()
-
