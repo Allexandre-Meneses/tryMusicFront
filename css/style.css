@@ -118,13 +118,16 @@ div.bottom-block {
 }
 
 div.bottom-block h1 {
-    color: black;
-    border: solid transparent 1px;
+    color: white;
+    border: solid #ffffff00 1px;
     background: #F4511E;
-    border-radius: 6px;
-    padding-left: 10px;
+    border-radius: 38px;
+    padding-left: 0px;
     font-size: 12px;
     padding-top: 5px;
+    width: 103px;
+    height: 26px;
+    text-align: center;
 }
 
 div.bottom-block h2 {
